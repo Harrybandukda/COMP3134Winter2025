@@ -1,0 +1,13 @@
+comp3134@comp3134:~$ sudo traceroute -T google.com
+traceroute to google.com (172.217.14.238), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * sea30s02-in-f14.1e100.net (172.217.14.238)  4.834 ms *

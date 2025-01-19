@@ -1,0 +1,16 @@
+comp3134@comp3134:~$ ping www.apple.com -w 10
+PING e6858.dsce9.akamaiedge.net (184.31.205.23) 56(84) bytes of data.
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=1 ttl=52 time=4.71 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=2 ttl=52 time=4.91 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=3 ttl=52 time=4.97 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=4 ttl=52 time=4.87 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=5 ttl=52 time=4.78 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=6 ttl=52 time=4.77 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=7 ttl=52 time=4.74 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=8 ttl=52 time=4.67 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=9 ttl=52 time=4.76 ms
+64 bytes from a184-31-205-23.deploy.static.akamaitechnologies.com (184.31.205.23): icmp_seq=10 ttl=52 time=4.79 ms
+
+--- e6858.dsce9.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 4.666/4.796/4.971/0.088 ms

@@ -1,0 +1,9 @@
+ping 20.9.142.84
+
+Pinging 20.9.142.84 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+The server is reachable via SSH but does not respond to ICMP (ping) requests. This is likely due to firewall settings or restrictions set by the AZURE.

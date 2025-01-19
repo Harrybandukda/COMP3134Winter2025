@@ -1,0 +1,68 @@
+1) To use Nmap to scan 1000 TCP ports
+
+comp3134@comp3134:~$ nmap google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-19 15:29 UTC
+Nmap scan report for google.com (142.251.33.110)
+Host is up (0.0049s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400a:806::200e
+rDNS record for 142.251.33.110: sea30s10-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.56 seconds
+
+
+2) To scan a single Port
+
+comp3134@comp3134:~$ nmap -p 443 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-19 15:31 UTC
+Nmap scan report for google.com (142.251.33.110)
+Host is up (0.0049s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400a:806::200e
+rDNS record for 142.251.33.110: sea30s10-in-f14.1e100.net
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+
+3) To scan a range of ports
+
+comp3134@comp3134:~$ nmap -p 70-80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-19 15:32 UTC
+Nmap scan report for google.com (142.251.33.110)
+Host is up (0.0050s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400a:806::200e
+rDNS record for 142.251.33.110: sea30s10-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+70/tcp filtered gopher
+71/tcp filtered netrjs-1
+72/tcp filtered netrjs-2
+73/tcp filtered netrjs-3
+74/tcp filtered netrjs-4
+75/tcp filtered priv-dial
+76/tcp filtered deos
+77/tcp filtered priv-rje
+78/tcp filtered vettcp
+79/tcp filtered finger
+80/tcp open     http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.25 seconds
+
+4) To scan 100 most common ports (Fast)
+
+comp3134@comp3134:~$ nmap -F google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-19 15:32 UTC
+Nmap scan report for google.com (142.251.33.110)
+Host is up (0.0049s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400a:806::200e
+rDNS record for 142.251.33.110: sea30s10-in-f14.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.05 seconds
