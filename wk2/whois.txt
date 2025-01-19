@@ -1,0 +1,132 @@
+1) Apple.com
+
+Registrar	NOM-IQ Ltd dba Com Laude Nom-iq Ltd. dba COM LAUDE
+IANA ID: 470
+URL: https://www.comlaude.com,http://www.comlaude.com
+Whois Server: whois.comlaude.com
+
+(p)
+Registrar Status	clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited
+Dates	13,849 days old
+Created on 1987-02-19
+Expires on 2025-02-20
+Updated on 2024-11-11	  
+Name Servers	A.NS.APPLE.COM (has 19,458 domains)
+B.NS.APPLE.COM (has 19,458 domains)
+C.NS.APPLE.COM (has 19,458 domains)
+D.NS.APPLE.COM (has 19,458 domains)
+  
+IP Address	23.1.100.244 - 3 other sites hosted on this server
+  
+IP Location	United States - California - San Jose - Akamai Technologies Inc.
+ASN	United States AS16625 AKAMAI-AS, US (registered May 30, 2000)
+IP History	700 changes on 700 unique IP addresses over 21 years
+
+2) ChatGPT.com
+
+Registrar	MarkMonitor, Inc. MarkMonitor Inc.
+IANA ID: 292
+URL: http://www.markmonitor.com
+Whois Server: whois.markmonitor.com
+
+(p)
+Registrar Status	clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited
+Dates	781 days old
+Created on 2022-11-30
+Expires on 2026-11-30
+Updated on 2024-10-17	  
+Name Servers	HASSAN.NS.CLOUDFLARE.COM (has 27,327,671 domains)
+SAVANNA.NS.CLOUDFLARE.COM (has 27,327,671 domains)
+  
+IP Address	104.18.32.47 - 24 other sites hosted on this server
+  
+IP Location	United States - California - San Jose - Cloudflare Inc.
+ASN	United States AS13335 CLOUDFLARENET, US (registered Jul 14, 2010)
+Domain Status	Registered And No Website
+IP History	9 changes on 9 unique IP addresses over 3 years	  
+Hosting History	6 changes on 5 unique name servers over 3 years
+3) CoinMarketCap.com
+
+
+Registrar	MarkMonitor, Inc. MarkMonitor Inc.
+IANA ID: 292
+URL: http://www.markmonitor.com
+Whois Server: whois.markmonitor.com
+
+(p)
+Registrar Status	clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited
+Dates	4,284 days old
+Created on 2013-04-28
+Expires on 2025-04-28
+Updated on 2023-03-10	  
+Name Servers	NS-1254.AWSDNS-28.ORG (has 56,068 domains)
+NS-2024.AWSDNS-61.CO.UK (has 403 domains)
+NS-52.AWSDNS-06.COM (has 1,854 domains)
+NS-763.AWSDNS-31.NET (has 20 domains)
+  
+IP Address	18.161.6.51 - 1,877 other sites hosted on this server
+  
+IP Location	United States - Oregon - Portland - Amazon.com Inc.
+ASN	United States AS16509 AMAZON-02, US (registered May 04, 2000)
+Domain Status	Registered And No Website
+IP History	48 changes on 48 unique IP addresses over 12 years	  
+Hosting History	3 changes on 4 unique name servers over 12 years
+
+
+4) CIBC.com
+
+Registrar	CSC CORPORATE DOMAINS, INC. CSC Corporate Domains, Inc.
+IANA ID: 299
+URL: www.cscprotectsbrands.com,http://cscdbs.com
+Whois Server: whois.corporatedomains.com
+
+Registrar Status	clientTransferProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited
+Dates	11,371 days old
+Created on 1993-12-02
+Expires on 2025-12-01
+Updated on 2024-11-27	  
+Name Servers	A1-188.AKAM.NET (has 165,147 domains)
+A11-67.AKAM.NET (has 165,147 domains)
+A13-64.AKAM.NET (has 165,147 domains)
+A16-65.AKAM.NET (has 165,147 domains)
+A18-66.AKAM.NET (has 165,147 domains)
+A26-67.AKAM.NET (has 165,147 domains)
+  
+IP Address	104.123.70.42 - 501 other sites hosted on this server
+  
+IP Location	United States - California - San Jose - Akamai Technologies Inc.
+ASN	United States AS20940 AKAMAI-ASN1 Akamai International B.V., NL (registered Jul 10, 2001)
+Domain Status	Registered And No Website
+IP History	567 changes on 567 unique IP addresses over 20 years	  
+Hosting History	6 changes on 6 unique name servers over 19 years
+
+
+5) RockStarGames.com
+
+Registrar	MarkMonitor, Inc. MarkMonitor Inc.
+IANA ID: 292
+URL: http://www.markmonitor.com
+Whois Server: whois.markmonitor.com
+
+(p)
+Registrar Status	clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited
+Dates	9,546 days old
+Created on 1998-12-01
+Expires on 2025-11-30
+Updated on 2024-08-02	  
+Name Servers	DNS1.P05.NSONE.NET (has 3,343,030 domains)
+DNS2.P05.NSONE.NET (has 3,343,030 domains)
+DNS3.P05.NSONE.NET (has 3,343,030 domains)
+DNS4.P05.NSONE.NET (has 3,343,030 domains)
+NS01.VANDALAY-INDUSTRIES.NET (has 0 domains)
+NS02.VANDALAY-INDUSTRIES.NET (has 0 domains)
+NS03.VANDALAY-INDUSTRIES.NET (has 0 domains)
+NS04.VANDALAY-INDUSTRIES.NET (has 0 domains)
+  
+IP Address	23.4.157.16 - 12 other sites hosted on this server
+  
+IP Location	Mexico - Distrito Federal - Mexico City - Akamai Technologies Inc.
+ASN	Mexico AS16625 AKAMAI-AS, US (registered May 30, 2000)
+Domain Status	Registered And No Website
+IP History	479 changes on 479 unique IP addresses over 20 years	  
+Hosting History	3 changes on 4 unique name servers over 22 years
