@@ -1,0 +1,12 @@
+harry@lamp-server:~$ sudo tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:23:41.322246 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2360460339:2360460447, ack 3952136096, win 589, length 108
+20:23:41.322432 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 108:264, ack 1, win 589, length 156
+20:23:41.322754 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 264:368, ack 1, win 589, length 104
+20:23:41.347261 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1:37, ack 4294966852, win 507, length 36
+20:23:41.347356 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 368:404, ack 37, win 589, length 36
+5 packets captured
+12 packets received by filter
+0 packets dropped by kernel
+harry@lamp-server:~$

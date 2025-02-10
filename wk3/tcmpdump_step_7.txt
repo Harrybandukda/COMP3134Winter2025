@@ -1,0 +1,260 @@
+harry@lamp-server:~$ sudo tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+20:27:41.467409 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2394448859:2394448903, ack 3952204368, win 1207, length 44
+20:27:41.467488 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 44:96, ack 1, win 1207, length 52
+20:27:41.467761 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 96:196, ack 1, win 1207, length 100
+20:27:41.472797 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1:37, ack 4294966956, win 8204, length 36
+20:27:41.472922 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 196:232, ack 37, win 1207, length 36
+20:27:41.505640 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 4294967028, win 8204, length 0
+20:27:41.505847 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 37:73, ack 4294967028, win 8204, length 36
+20:27:41.505973 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 232:268, ack 73, win 1207, length 36
+20:27:41.536538 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 73:109, ack 4294967064, win 8204, length 36
+20:27:41.536663 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 268:304, ack 109, win 1207, length 36
+20:27:41.568198 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 109:145, ack 4294967100, win 8204, length 36
+20:27:41.568337 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 304:340, ack 145, win 1207, length 36
+20:27:41.600066 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 145:181, ack 4294967136, win 8204, length 36
+20:27:41.600202 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 340:376, ack 181, win 1207, length 36
+20:27:41.633453 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 181:217, ack 4294967172, win 8203, length 36
+20:27:41.633596 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 376:412, ack 217, win 1207, length 36
+20:27:41.664892 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 217:253, ack 4294967208, win 8203, length 36
+20:27:41.665037 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 412:448, ack 253, win 1207, length 36
+20:27:41.691508 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 0, win 8203, length 0
+20:27:41.691968 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 253:289, ack 0, win 8203, length 36
+20:27:41.692088 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 448:484, ack 289, win 1207, length 36
+20:27:41.719942 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 196, win 8202, length 0
+20:27:41.720047 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 289:325, ack 196, win 8202, length 36
+20:27:41.720202 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 484:520, ack 325, win 1207, length 36
+20:27:41.753974 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 325:361, ack 232, win 8202, length 36
+20:27:41.754053 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 520:556, ack 361, win 1207, length 36
+20:27:41.785086 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 361:397, ack 268, win 8202, length 36
+20:27:41.785176 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 556:592, ack 397, win 1207, length 36
+20:27:41.811529 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 397:433, ack 304, win 8202, length 36
+20:27:41.811628 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 592:628, ack 433, win 1207, length 36
+20:27:41.842999 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 433:469, ack 340, win 8202, length 36
+20:27:41.843158 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 628:664, ack 469, win 1207, length 36
+20:27:41.873537 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 469:505, ack 376, win 8201, length 36
+20:27:41.873674 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 664:700, ack 505, win 1207, length 36
+20:27:41.904650 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 505:541, ack 412, win 8201, length 36
+20:27:41.904760 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 700:736, ack 541, win 1207, length 36
+20:27:41.917070 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 448, win 8207, length 0
+20:27:41.935290 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 541:577, ack 448, win 8207, length 36
+20:27:41.935436 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 736:772, ack 577, win 1207, length 36
+20:27:41.966046 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 577:613, ack 484, win 8207, length 36
+20:27:41.966173 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 772:808, ack 613, win 1207, length 36
+20:27:41.996536 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 613:649, ack 520, win 8206, length 36
+20:27:41.996709 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 808:844, ack 649, win 1207, length 36
+20:27:42.027879 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 649:685, ack 556, win 8206, length 36
+20:27:42.028110 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 844:880, ack 685, win 1207, length 36
+20:27:42.058557 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 685:721, ack 592, win 8206, length 36
+20:27:42.058716 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 880:916, ack 721, win 1207, length 36
+20:27:42.089502 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 721:757, ack 628, win 8206, length 36
+20:27:42.089666 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 916:952, ack 757, win 1207, length 36
+20:27:42.120213 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 757:793, ack 664, win 8206, length 36
+20:27:42.120373 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 952:988, ack 793, win 1207, length 36
+20:27:42.151251 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 793:829, ack 700, win 8206, length 36
+20:27:42.151409 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 988:1024, ack 829, win 1207, length 36
+20:27:42.182812 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 829:865, ack 736, win 8206, length 36
+20:27:42.182999 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1024:1060, ack 865, win 1207, length 36
+20:27:42.213357 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 865:901, ack 772, win 8205, length 36
+20:27:42.213518 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1060:1096, ack 901, win 1207, length 36
+20:27:42.244185 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 901:937, ack 808, win 8205, length 36
+20:27:42.244347 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1096:1132, ack 937, win 1207, length 36
+20:27:42.274349 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 937:973, ack 844, win 8205, length 36
+20:27:42.274564 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1132:1168, ack 973, win 1207, length 36
+20:27:42.306236 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 973:1009, ack 880, win 8205, length 36
+20:27:42.306402 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1168:1204, ack 1009, win 1207, length 36
+20:27:42.336694 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1009:1045, ack 916, win 8205, length 36
+20:27:42.336846 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1204:1240, ack 1045, win 1207, length 36
+20:27:42.367916 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1045:1081, ack 952, win 8205, length 36
+20:27:42.368094 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1240:1276, ack 1081, win 1207, length 36
+20:27:42.398834 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1081:1117, ack 988, win 8205, length 36
+20:27:42.398980 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1276:1312, ack 1117, win 1207, length 36
+20:27:42.429489 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1117:1153, ack 1024, win 8205, length 36
+20:27:42.429627 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1312:1348, ack 1153, win 1207, length 36
+20:27:42.460565 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1153:1189, ack 1060, win 8204, length 36
+20:27:42.460766 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1348:1384, ack 1189, win 1207, length 36
+20:27:42.492160 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1189:1225, ack 1096, win 8204, length 36
+20:27:42.492312 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1384:1420, ack 1225, win 1207, length 36
+20:27:42.522404 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1225:1261, ack 1132, win 8204, length 36
+20:27:42.522554 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1420:1456, ack 1261, win 1207, length 36
+20:27:42.553225 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1261:1297, ack 1168, win 8204, length 36
+20:27:42.553388 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1456:1492, ack 1297, win 1207, length 36
+20:27:42.584918 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1297:1333, ack 1204, win 8204, length 36
+20:27:42.585090 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1492:1528, ack 1333, win 1207, length 36
+20:27:42.616362 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1333:1369, ack 1240, win 8204, length 36
+20:27:42.616522 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1528:1564, ack 1369, win 1207, length 36
+20:27:42.647536 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1369:1405, ack 1276, win 8204, length 36
+20:27:42.647708 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1564:1600, ack 1405, win 1207, length 36
+20:27:42.678291 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1405:1441, ack 1312, win 8203, length 36
+20:27:42.678468 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1600:1636, ack 1441, win 1207, length 36
+20:27:42.708637 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1441:1477, ack 1348, win 8203, length 36
+20:27:42.708830 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1636:1672, ack 1477, win 1207, length 36
+20:27:42.739695 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1477:1513, ack 1384, win 8203, length 36
+20:27:42.739851 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1672:1708, ack 1513, win 1207, length 36
+20:27:42.770019 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1513:1549, ack 1420, win 8203, length 36
+20:27:42.770189 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1708:1744, ack 1549, win 1207, length 36
+20:27:42.800783 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1549:1585, ack 1456, win 8203, length 36
+20:27:42.800943 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1744:1780, ack 1585, win 1207, length 36
+20:27:42.832068 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1585:1621, ack 1492, win 8203, length 36
+20:27:42.832223 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1780:1816, ack 1621, win 1207, length 36
+20:27:42.861468 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1621:1657, ack 1528, win 8203, length 36
+20:27:42.861645 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1816:1852, ack 1657, win 1207, length 36
+20:27:42.892917 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1657:1693, ack 1564, win 8202, length 36
+20:27:42.893179 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1852:1888, ack 1693, win 1207, length 36
+20:27:42.923523 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1693:1729, ack 1600, win 8202, length 36
+20:27:42.923666 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1888:1924, ack 1729, win 1207, length 36
+20:27:42.954086 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1729:1765, ack 1636, win 8202, length 36
+20:27:42.954302 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1924:1960, ack 1765, win 1207, length 36
+20:27:42.984577 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1765:1801, ack 1672, win 8202, length 36
+20:27:42.984745 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1960:1996, ack 1801, win 1207, length 36
+20:27:43.016265 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1801:1837, ack 1708, win 8202, length 36
+20:27:43.016417 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 1996:2032, ack 1837, win 1207, length 36
+20:27:43.047300 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1837:1873, ack 1744, win 8202, length 36
+20:27:43.047451 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2032:2068, ack 1873, win 1207, length 36
+20:27:43.079005 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1873:1909, ack 1780, win 8202, length 36
+20:27:43.079192 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2068:2104, ack 1909, win 1207, length 36
+20:27:43.109663 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1909:1945, ack 1816, win 8201, length 36
+20:27:43.109827 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2104:2140, ack 1945, win 1207, length 36
+20:27:43.141358 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1945:1981, ack 1852, win 8201, length 36
+20:27:43.141521 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2140:2176, ack 1981, win 1207, length 36
+20:27:43.145029 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 1888, win 8207, length 0
+20:27:43.175382 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 1924, win 8207, length 0
+20:27:43.175382 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 1981:2017, ack 1924, win 8207, length 36
+20:27:43.175529 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2176:2212, ack 2017, win 1207, length 36
+20:27:43.203176 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2017:2053, ack 1924, win 8207, length 36
+20:27:43.203329 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2212:2248, ack 2053, win 1207, length 36
+20:27:43.234580 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2053:2089, ack 1960, win 8206, length 36
+20:27:43.234723 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2248:2284, ack 2089, win 1207, length 36
+20:27:43.266206 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2089:2125, ack 1996, win 8206, length 36
+20:27:43.266344 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2284:2320, ack 2125, win 1207, length 36
+20:27:43.296539 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2125:2161, ack 2032, win 8206, length 36
+20:27:43.296687 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2320:2356, ack 2161, win 1207, length 36
+20:27:43.327482 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2161:2197, ack 2068, win 8206, length 36
+20:27:43.327637 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2356:2392, ack 2197, win 1207, length 36
+20:27:43.359054 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2197:2233, ack 2104, win 8206, length 36
+20:27:43.359195 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2392:2428, ack 2233, win 1207, length 36
+20:27:43.389344 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2233:2269, ack 2140, win 8206, length 36
+20:27:43.389490 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2428:2464, ack 2269, win 1207, length 36
+20:27:43.420859 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2269:2305, ack 2176, win 8206, length 36
+20:27:43.421032 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2464:2500, ack 2305, win 1207, length 36
+20:27:43.450705 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2305:2341, ack 2212, win 8205, length 36
+20:27:43.450930 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2500:2536, ack 2341, win 1207, length 36
+20:27:43.481785 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2341:2377, ack 2248, win 8205, length 36
+20:27:43.481936 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2536:2572, ack 2377, win 1207, length 36
+20:27:43.513848 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2377:2413, ack 2284, win 8205, length 36
+20:27:43.514006 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2572:2608, ack 2413, win 1207, length 36
+20:27:43.544738 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2413:2449, ack 2320, win 8205, length 36
+20:27:43.544889 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2608:2644, ack 2449, win 1207, length 36
+20:27:43.576408 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2449:2485, ack 2356, win 8205, length 36
+20:27:43.576594 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2644:2680, ack 2485, win 1207, length 36
+20:27:43.607883 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2485:2521, ack 2392, win 8205, length 36
+20:27:43.608041 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2680:2716, ack 2521, win 1207, length 36
+20:27:43.637903 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2521:2557, ack 2428, win 8205, length 36
+20:27:43.638123 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2716:2752, ack 2557, win 1207, length 36
+20:27:43.668484 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2557:2593, ack 2464, win 8205, length 36
+20:27:43.668608 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2752:2788, ack 2593, win 1207, length 36
+20:27:43.699182 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2593:2629, ack 2500, win 8204, length 36
+20:27:43.699379 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2788:2824, ack 2629, win 1207, length 36
+20:27:43.729778 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2629:2665, ack 2536, win 8204, length 36
+20:27:43.729924 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2824:2860, ack 2665, win 1207, length 36
+20:27:43.760632 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2665:2701, ack 2572, win 8204, length 36
+20:27:43.760816 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2860:2896, ack 2701, win 1207, length 36
+20:27:43.791311 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2701:2737, ack 2608, win 8204, length 36
+20:27:43.791426 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2896:2932, ack 2737, win 1207, length 36
+20:27:43.822961 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2737:2773, ack 2644, win 8204, length 36
+20:27:43.823113 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2932:2968, ack 2773, win 1207, length 36
+20:27:43.853799 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2773:2809, ack 2680, win 8204, length 36
+20:27:43.853987 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 2968:3004, ack 2809, win 1207, length 36
+20:27:43.884811 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2809:2845, ack 2716, win 8204, length 36
+20:27:43.884943 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3004:3040, ack 2845, win 1207, length 36
+20:27:43.916221 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2845:2881, ack 2752, win 8203, length 36
+20:27:43.916369 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3040:3076, ack 2881, win 1207, length 36
+20:27:43.947301 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2881:2917, ack 2788, win 8203, length 36
+20:27:43.947466 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3076:3112, ack 2917, win 1207, length 36
+20:27:43.978447 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2917:2953, ack 2824, win 8203, length 36
+20:27:43.978597 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3112:3148, ack 2953, win 1207, length 36
+20:27:44.008290 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2953:2989, ack 2860, win 8203, length 36
+20:27:44.008443 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3148:3184, ack 2989, win 1207, length 36
+20:27:44.040296 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 2989:3025, ack 2896, win 8203, length 36
+20:27:44.040449 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3184:3220, ack 3025, win 1207, length 36
+20:27:44.071107 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3025:3061, ack 2932, win 8203, length 36
+20:27:44.073241 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3220:3256, ack 3061, win 1207, length 36
+20:27:44.101868 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3061:3097, ack 2968, win 8203, length 36
+20:27:44.102061 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3256:3292, ack 3097, win 1207, length 36
+20:27:44.136717 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3040, win 8202, length 0
+20:27:44.199065 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3112, win 8202, length 0
+20:27:44.260848 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3184, win 8202, length 0
+20:27:44.325642 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3256, win 8201, length 0
+20:27:44.396020 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3292, win 8201, length 0
+20:27:45.967440 IP lamp-server.internal.cloudapp.net.52370 > 168.63.129.16.http: Flags [S], seq 747783547, win 64240, options [mss 1460,sackOK,TS val 3257946428 ecr 0,nop,wscale 7], length 0
+20:27:45.968402 IP 168.63.129.16.http > lamp-server.internal.cloudapp.net.52370: Flags [S.], seq 1763276466, ack 747783548, win 65535, options [mss 1460,nop,wscale 8,sackOK,TS val 88857276 ecr 3257946428], length 0
+20:27:45.968438 IP lamp-server.internal.cloudapp.net.52370 > 168.63.129.16.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 3257946429 ecr 88857276], length 0
+20:27:45.968494 IP lamp-server.internal.cloudapp.net.52370 > 168.63.129.16.http: Flags [P.], seq 1:201, ack 1, win 502, options [nop,nop,TS val 3257946429 ecr 88857276], length 200: HTTP: GET /machine/?comp=goalstate HTTP/1.1
+20:27:45.971663 IP 168.63.129.16.http > lamp-server.internal.cloudapp.net.52370: Flags [FP.], seq 1:2281, ack 201, win 16387, options [nop,nop,TS val 88857279 ecr 3257946429], length 2280: HTTP: HTTP/1.1 200 OK
+20:27:45.971715 IP lamp-server.internal.cloudapp.net.52370 > 168.63.129.16.http: Flags [.], ack 2282, win 537, options [nop,nop,TS val 3257946432 ecr 88857279], length 0
+20:27:45.972086 IP lamp-server.internal.cloudapp.net.52370 > 168.63.129.16.http: Flags [F.], seq 201, ack 2282, win 537, options [nop,nop,TS val 3257946432 ecr 88857279], length 0
+20:27:45.972468 IP 168.63.129.16.http > lamp-server.internal.cloudapp.net.52370: Flags [.], ack 202, win 16387, options [nop,nop,TS val 88857280 ecr 3257946432], length 0
+20:27:45.973141 IP lamp-server.internal.cloudapp.net.51926 > 168.63.129.16.32526: Flags [S], seq 3627406106, win 64240, options [mss 1460,sackOK,TS val 3257946434 ecr 0,nop,wscale 7], length 0
+20:27:45.974352 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51926: Flags [S.], seq 3057311074, ack 3627406107, win 65535, options [mss 1460,nop,wscale 8,sackOK,TS val 88857282 ecr 3257946434], length 0
+20:27:45.974378 IP lamp-server.internal.cloudapp.net.51926 > 168.63.129.16.32526: Flags [.], ack 1, win 502, options [nop,nop,TS val 3257946435 ecr 88857282], length 0
+20:27:45.974420 IP lamp-server.internal.cloudapp.net.51926 > 168.63.129.16.32526: Flags [P.], seq 1:441, ack 1, win 502, options [nop,nop,TS val 3257946435 ecr 88857282], length 440
+20:27:45.980767 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51926: Flags [FP.], seq 1:146, ack 441, win 16386, options [nop,nop,TS val 88857288 ecr 3257946435], length 145
+20:27:45.981008 IP lamp-server.internal.cloudapp.net.51926 > 168.63.129.16.32526: Flags [F.], seq 441, ack 147, win 501, options [nop,nop,TS val 3257946441 ecr 88857288], length 0
+20:27:45.981384 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51926: Flags [.], ack 442, win 16386, options [nop,nop,TS val 88857289 ecr 3257946441], length 0
+20:27:45.981690 IP lamp-server.internal.cloudapp.net.51936 > 168.63.129.16.32526: Flags [S], seq 1712723881, win 64240, options [mss 1460,sackOK,TS val 3257946442 ecr 0,nop,wscale 7], length 0
+20:27:45.982274 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51936: Flags [S.], seq 3583776538, ack 1712723882, win 65535, options [mss 1460,nop,wscale 8,sackOK,TS val 88857290 ecr 3257946442], length 0
+20:27:45.982299 IP lamp-server.internal.cloudapp.net.51936 > 168.63.129.16.32526: Flags [.], ack 1, win 502, options [nop,nop,TS val 3257946443 ecr 88857290], length 0
+20:27:45.982340 IP lamp-server.internal.cloudapp.net.51936 > 168.63.129.16.32526: Flags [P.], seq 1:389, ack 1, win 502, options [nop,nop,TS val 3257946443 ecr 88857290], length 388
+20:27:45.982355 IP lamp-server.internal.cloudapp.net.51936 > 168.63.129.16.32526: Flags [P.], seq 389:961, ack 1, win 502, options [nop,nop,TS val 3257946443 ecr 88857290], length 572
+20:27:45.982646 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51936: Flags [.], ack 961, win 16384, options [nop,nop,TS val 88857290 ecr 3257946443], length 0
+20:27:45.983704 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51936: Flags [FP.], seq 1:155, ack 961, win 16384, options [nop,nop,TS val 88857290 ecr 3257946443], length 154
+20:27:45.984182 IP lamp-server.internal.cloudapp.net.51942 > 168.63.129.16.32526: Flags [S], seq 3016574809, win 64240, options [mss 1460,sackOK,TS val 3257946445 ecr 0,nop,wscale 7], length 0
+20:27:45.984647 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51942: Flags [S.], seq 3211890402, ack 3016574810, win 65535, options [mss 1460,nop,wscale 8,sackOK,TS val 88857292 ecr 3257946445], length 0
+20:27:45.984671 IP lamp-server.internal.cloudapp.net.51942 > 168.63.129.16.32526: Flags [.], ack 1, win 502, options [nop,nop,TS val 3257946445 ecr 88857292], length 0
+20:27:45.984715 IP lamp-server.internal.cloudapp.net.51942 > 168.63.129.16.32526: Flags [P.], seq 1:390, ack 1, win 502, options [nop,nop,TS val 3257946445 ecr 88857292], length 389
+20:27:45.984733 IP lamp-server.internal.cloudapp.net.51942 > 168.63.129.16.32526: Flags [P.], seq 390:2351, ack 1, win 502, options [nop,nop,TS val 3257946445 ecr 88857292], length 1961
+20:27:45.984936 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51942: Flags [.], ack 2351, win 16388, options [nop,nop,TS val 88857293 ecr 3257946445], length 0
+20:27:45.986649 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51942: Flags [FP.], seq 1:155, ack 2351, win 16388, options [nop,nop,TS val 88857294 ecr 3257946445], length 154
+20:27:45.986858 IP lamp-server.internal.cloudapp.net.51936 > 168.63.129.16.32526: Flags [F.], seq 961, ack 156, win 501, options [nop,nop,TS val 3257946447 ecr 88857290], length 0
+20:27:45.986900 IP lamp-server.internal.cloudapp.net.51942 > 168.63.129.16.32526: Flags [F.], seq 2351, ack 156, win 501, options [nop,nop,TS val 3257946447 ecr 88857294], length 0
+20:27:45.987344 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51936: Flags [.], ack 962, win 16384, options [nop,nop,TS val 88857295 ecr 3257946447], length 0
+20:27:45.987344 IP 168.63.129.16.32526 > lamp-server.internal.cloudapp.net.51942: Flags [.], ack 2352, win 16388, options [nop,nop,TS val 88857295 ecr 3257946447], length 0
+20:27:49.790609 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3097:3133, ack 3292, win 8201, length 36
+20:27:49.790898 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3292:3328, ack 3133, win 1207, length 36
+20:27:49.831912 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3133:3169, ack 3292, win 8201, length 36
+20:27:49.832138 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3328:3364, ack 3169, win 1207, length 36
+20:27:49.878047 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3169:3205, ack 3292, win 8201, length 36
+20:27:49.878181 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3364:3400, ack 3205, win 1207, length 36
+20:27:49.908965 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3205:3241, ack 3292, win 8201, length 36
+20:27:49.909126 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3400:3436, ack 3241, win 1207, length 36
+20:27:49.940151 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3241:3277, ack 3292, win 8201, length 36
+20:27:49.940299 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3436:3472, ack 3277, win 1207, length 36
+20:27:49.971128 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3277:3313, ack 3292, win 8201, length 36
+20:27:49.971204 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3472:3508, ack 3313, win 1207, length 36
+20:27:50.002097 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3313:3349, ack 3292, win 8201, length 36
+20:27:50.002188 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3508:3544, ack 3349, win 1207, length 36
+20:27:50.032678 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3349:3385, ack 3292, win 8201, length 36
+20:27:50.032888 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3544:3580, ack 3385, win 1207, length 36
+20:27:50.042960 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3328, win 8207, length 0
+20:27:50.063706 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3385:3421, ack 3328, win 8207, length 36
+20:27:50.063905 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3580:3616, ack 3421, win 1207, length 36
+20:27:50.084172 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3421:3457, ack 3364, win 8207, length 36
+20:27:50.084288 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3616:3652, ack 3457, win 1207, length 36
+20:27:50.126750 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3457:3493, ack 3364, win 8207, length 36
+20:27:50.126933 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3652:3688, ack 3493, win 1207, length 36
+20:27:50.161531 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3436, win 8206, length 0
+20:27:50.188996 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3493:3529, ack 3436, win 8206, length 36
+20:27:50.189177 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3688:3724, ack 3529, win 1207, length 36
+20:27:50.223437 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3508, win 8206, length 0
+20:27:50.251657 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3529:3565, ack 3508, win 8206, length 36
+20:27:50.251937 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3724:3760, ack 3565, win 1207, length 36
+20:27:50.285177 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3580, win 8206, length 0
+20:27:50.312806 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3565:3601, ack 3580, win 8206, length 36
+20:27:50.312984 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3760:3796, ack 3601, win 1207, length 36
+20:27:50.336158 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [.], ack 3652, win 8205, length 0
+20:27:50.358924 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3601:3637, ack 3652, win 8205, length 36
+20:27:50.359122 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3796:3832, ack 3637, win 1207, length 36
+20:27:50.379144 IP mail.quikebuy.com.6965 > lamp-server.internal.cloudapp.net.ssh: Flags [P.], seq 3637:3673, ack 3688, win 8205, length 36
+20:27:50.379239 IP lamp-server.internal.cloudapp.net.ssh > mail.quikebuy.com.6965: Flags [P.], seq 3832:3868, ack 3673, win 1207, length 36
+tcpdump: pcap_loop: truncated dump file; tried to read 90 captured bytes, only got 29
+harry@lamp-server:~$

@@ -1,0 +1,9 @@
+harry@lamp-server:~$ sudo tcpdump -w 0001.pcap -i eth0
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^Z
+[5]+  Stopped                 sudo tcpdump -w 0001.pcap -i eth0
+harry@lamp-server:~$ sudo tcpdump -w 0001.pcap -i eth0
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^Z
+[6]+  Stopped                 sudo tcpdump -w 0001.pcap -i eth0
+harry@lamp-server:~$
